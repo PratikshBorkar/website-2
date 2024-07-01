@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chhatrapati Shivaji Maharaj </title>
+    <style>
+        
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    border: 1x solid;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( rgba(215, 157, 157, 0),rgba(18, 19, 20, 0.7)),
+    url(" https://wallpapercave.com/wp/wp8292201.jpg");
+    background-size: cover;
+
+}
+.nav{
+    display: flex;
+    border: 1px solid #1c1a1a;*/
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+
+}
+
+.link{
+    list-style: none;
+    flex: 1;
+    padding: 0%px 20px;
+    margin-left: auto;
+ }
+.link li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+.link li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+      
+}
+.link li::after{
+    content: ''; 
+    background-color: rgba(255, 89, 0, 0.89);
+    width: 0;
+    margin: auto;
+    display: block;
+    height: 2px;
+    transition: .5s;
+}
+.link li:hover::after{
+    width: 100%;
+}
+.con{
+    width: 780px;
+    padding-top: 50px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+    align-items: center;
+    color: #000000;
+}
+.con img{
+  float: center;
+    border: 1px dotted black;
+    margin: 0px 0px 20px 20px;
+    width: 40%;
+}
+/*----About----*/
+
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 215px;
+    padding-right: 220px;
+  }
+  
+  .btn {
+    background-color: #f58904;
+    color: white;
+    font-weight: 600;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 45px;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .btn:hover {
+    background-color: #ffffff;
+    color: #f58904;
+  }
+  .con img{
+    border-radius: 20px;
+  }
+  .con p{
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 45px;
+  }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+           <center> <h1> <u></u></h1></center>
+            <ul class="link" >
+               
+                <li><a href="Biography.html">Biography</a></li> 
+                <li><a href="Timeline.html">Life and Battles</a></li>
+                <li><a href="Armour.html">Armour</a></li>
+            </ul>
+            <br><br><br>
+        </nav>  
+          </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+            <!----about---->
+      <center>  <u>  <h1>Chattrapati Shivaji Maharaj</h1></u></center>  
+            <div class="con">
+              <img src="https://www.tallengestore.com/cdn/shop/products/ChhatrapatiShivajiRajeBhosaleMaharaj-Painting_1faa42b7-f047-4f07-a709-ababd61a6984.jpg?v=1651667117" alt="">
+          <b>    <p>
+                Chhatrapati Shivaji Maharaj was a Maratha warrior and founding ruler of the Maratha empire in western India. 
+                In India and even in other countries, he is still considered the greatest warrior of his time. 
+                An innovative military tactician and a skilful administrator, he is considered a valorous warrior.
+            </p>
+             <p><center>"Shivaji Maharaj, also known as Chhatrapati Shivaji Maharaj, was a significant figure in Indian history.
+                He was the founder of the Maratha Empire in western India in the 17th century. His leadership, administrative acumen,
+                 and military strategies are celebrated to this day. Below is a detailed biography of his life."</center>
+             </p>
+                </b>
+            </div>
+            <div class="buttons">
+                <button class="btn" id="Back" onclick="nextPage()">Back</button>
+                <button
+                  class="btn"
+                  id="nextPage"
+                  onclick="nextPage1()"
+                >
+                  nextPage
+                </button>
+                
+        
+                <script>
+                  function nextPage() {
+                    window.location.href ="Home.html";
+                  }
+        
+                  function nextPage1() {
+                    window.location.href = "Biography.html";
+                   
+                  }
+                 
+                </script>
+            
+</body>
+</html>
